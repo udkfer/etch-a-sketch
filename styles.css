@@ -1,0 +1,29 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#controls {
+    margin-bottom: 20px;
+}
+
+#grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vmin;
+    height: 80vmin;
+    border: 1px solid #000;
+}
+
+.grid-cell {
+    flex: 1 0 auto;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0);
+}
